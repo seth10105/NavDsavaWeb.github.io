@@ -9,7 +9,7 @@ document.getElementById("btn").onclick = function() {
 
     if(country == 'Usa'  && username == 'Seth' && password == '1234'){
         alert('Password, Username and Country correct.');
-        window.open("file:///D:/Sethscode/Game%20Design/Fish/nav.html");
+        window.open("nav.html");
     } else {
       alert("Password, Username or Country incorrect.");
     }
