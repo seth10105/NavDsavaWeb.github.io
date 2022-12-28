@@ -1,0 +1,29 @@
+
+
+body {
+    background-color: lightsteelblue;
+}
+
+.input1 {
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 200px;
+    height: 30px;
+}
+
+.wrapper {
+    margin-top: 20%;
+    margin-left: 46%;
+}
+button {
+    width: 210px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #03A1FF;
+    border: 2px solid #03A1FF;
+}
+button:hover {
+    background-color: rgb(251, 160, 48);
+    transition: .7s ease-in-out;
+    border: 2px solid orange;
+}

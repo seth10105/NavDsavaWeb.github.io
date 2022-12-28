@@ -1,0 +1,84 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Faq.css">
+    <title>Faq</title>
+</head>
+<body>
+        
+    <div class="nav-bar">
+        <ul>
+            <li><a class="a" href="nav.html">Home</a></li>
+             <li><a class="a" href="Faq.html">Faq</a></li>
+              <li><a class= "a" href="About.html">About</a></li> 
+              <div class="container">
+              <div class="buttop">
+            <button class="click">Settings</button>
+             <div class="list">
+                <div class="input">
+                 <div class="bc">
+<a> Background-Colors</a>
+</div>
+                <input type="radio" name="color" value="orange">Orange
+<input type="radio" name="color" value="white">White
+<input type="radio" name="color" value="lightblue">Lblue
+<input type="radio" name="color" value="pink">Pink
+<input type="radio" name="color" value="gold">Gold
+<input type="radio" name="color" value="lightsteelblue">Default
+</div>
+
+            </div>
+
+        </div>
+        </div>
+
+           
+
+        <script>
+
+            let click = document.querySelector('.click');
+
+            let list = document.querySelector('.list');
+
+            click.addEventListener("click",()=>{
+
+                list.classList.toggle('newlist');
+
+            });
+
+        </script>
+        </ul>     
+    </div>
+</header>
+
+    <div class="Faq">
+        <h1> Frequently Asked Questions.</h1>
+    </div>
+     <div class="pope">
+    <a> Question 1. Will any new mechanics be released on Rocket League?</a>
+    <br></br><br></br>
+    <a> Question 2. What is the closest boost to the Alpha Boost in Rocket League?</a>
+    <br></br><br></br>
+    <a> Question 3. What are the Sun Ray Boost and Hot Rocks Trail?</a>
+    <br></br><br></br><br></br><br></br><br></br><br></br>
+</div>
+<br></br>
+
+<script>
+    let radios = document.getElementsByName('color');
+    for(let i=0; i < radios.length; i++) {
+        radios[i].onclick = function() {
+            let target = document.body;
+            target.style.backgroundColor = radios[i].value;
+        }
+    }
+</script>
+<button class="buttof" id="butto">Click me if you don't like my website</button>
+<p class="pops" id="popsa">Please like my website!</p>
+<br></br>
+<button class="buttof" id="buttof">Click me if you like my website</button>
+<p class="pops" id="pops">Click it the button above!</p>
+<script src="nav.js"></script>
+</body>
+</html>

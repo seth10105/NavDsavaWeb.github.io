@@ -1,0 +1,205 @@
+body {
+	background-color: lightsteelblue;
+    background-image: url(bro.jfif);
+    background-size: cover;
+    box-shadow: 20px 20px 100px;
+}
+.logo{
+    margin-left: 68%;
+    float: right;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+    align-items: center;
+    background-color: lightslategrey;
+    padding: 20px;
+    height: 21px;
+
+    
+
+}
+.buttop {
+    margin-left: 650px;
+}
+li {
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+    font-weight: light;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 470;
+    margin-top: 15px;
+}
+.a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: ghostwhite;
+  transform-origin: bottom right;
+  transition: transform 0.60s ease-out;
+}
+
+.a:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.page {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 470;
+}
+
+
+
+.a:hover {
+    color: lightseagreen;
+    
+     transition: .8s ease;
+}
+.welcome {
+   margin-left: 47%;
+   margin-top: 45px;
+}
+.bc {
+    font-family: 'Tangerine', serif;
+}
+.container {
+
+    width:200px;
+
+    position: relative;
+
+}
+
+.click{
+
+    background-color: lightslategrey;
+
+}
+
+.click:hover {
+
+    background-color: lightslategrey;
+
+}
+.input {
+    display: inline-flex;
+
+}
+
+.click,.links {
+
+    padding: 12px;
+
+    
+font-family: 'Poppins', sans-serif;
+    
+    font-weight: 470;
+
+    border: none;
+
+    outline: none;
+
+    width:200px;
+
+    color: black;
+    font-size: 16px;
+
+    transition: 0.3s;
+
+}
+
+.list {
+
+    position: absolute;
+
+    transform: scaleY(0);
+
+    transform-origin: top;
+
+    transition: 0.3s;
+
+}
+
+.newlist {
+
+    transform: scaleY(1);
+
+}
+
+.links {
+
+    background-color: #283c63;
+
+}
+
+.links:hover {
+
+    background-color: #01579B;
+
+    transform: scale(1.1);
+
+}
+li {
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+    font-weight: light;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 470;
+    margin-top: 15px;
+}
+.a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: ghostwhite;
+  transform-origin: bottom right;
+  transition: transform 0.60s ease-out;
+}
+
+.a:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.page {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 470;
+    text-align: center;
+}
+
+
+
+.a:hover {
+    color: lightseagreen;
+    
+     transition: .8s ease;
+}
+.welcome {
+   margin-left: 47%;
+   margin-top: 45px;
+}

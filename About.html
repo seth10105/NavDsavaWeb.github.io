@@ -1,0 +1,81 @@
+
+<html lang="en">
+<head>
+    <title>About</title>
+    <link rel="stylesheet" href="About.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+     <div class="nav-bar">
+        <ul>
+            <li><a class="a" href="nav.html">Home</a></li>
+             <li><a class="a" href="Faq.html">Faq</a></li>
+              <li><a class= "a" href="About.html">About</a></li> 
+              <div class="container">
+              <div class="buttop">
+            <button class="click">Settings</button>
+             <div class="list">
+                <div class="input">
+                 <div class="bc">
+<a> Background-Colors</a>
+</div>
+                <input type="radio" name="color" value="orange">Orange
+<input type="radio" name="color" value="white">White
+<input type="radio" name="color" value="lightblue">Lblue
+<input type="radio" name="color" value="pink">Pink
+<input type="radio" name="color" value="gold">Gold
+<input type="radio" name="color" value="lightsteelblue">Default
+</div>
+
+            </div>
+
+        </div>
+        </div>
+
+           
+
+        <script>
+
+            let click = document.querySelector('.click');
+
+            let list = document.querySelector('.list');
+
+            click.addEventListener("click",()=>{
+
+                list.classList.toggle('newlist');
+
+            });
+
+        </script>
+    </ul>
+
+</div>
+                
+
+<div class="page">
+    <h1> About</h1>
+</div>
+
+<img src="C:/coding/WIN_20221215_20_43_52_Pro.jpg" height="400" width="800">
+<br></br> <br></br> <br></br>
+<a> Hi my name is Seth George I created this website this website is about Rocket League and some other games i'm a 9 year old coder and gamer also engineer, well I want to be a engineer if you want you can sub to my channel go to the index page and you can see my channel link! This will be the end of the about page.</a>
+
+    <br> </br>
+    
+<br></br>
+
+<script>
+    let radios = document.getElementsByName('color');
+    for(let i=0; i < radios.length; i++) {
+        radios[i].onclick = function() {
+            let target = document.body;
+            target.style.backgroundColor = radios[i].value;
+        }
+    }
+</script>
+    
+</body>
+</html>
